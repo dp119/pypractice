@@ -72,10 +72,10 @@ text = "This line is added by my program"
 FH = open(fname)
 
 print "Printing the contents of file", fname
-num_of_lines = print_file(FH)
+(num_of_lines, lines) = print_file(FH)
 FH.close()
 
-(line_number, lines) = get_linenumber(num_of_lines)
+line_number = get_linenumber(num_of_lines)
 print "The user wants the text to be inserted in line number :", line_number
 
 WFH = open(fname, 'w') ## ALERT !!! This will over write the existing file
