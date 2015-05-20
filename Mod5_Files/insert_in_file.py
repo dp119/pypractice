@@ -26,6 +26,12 @@ def print_file(FH):
         print line
 
 # Main : This is where the program starts
+# First check if the mandatory argument is given to the program
+if len(sys.argv) < 2:
+    print "No filename provided as argument to program"
+    print "Usage :", sys.argv[0], "<filename>"
+    quit()
+
 fname = sys.argv[1]
 
 FH = open(fname)
