@@ -12,6 +12,19 @@
 
 import sys
 
+def insert_text(WFH, all_lines, new_text, line_num):
+    """
+        Insert the text at a given line of a file
+        Input :
+                WFH : The file handle for the file opened in write mode
+                all_lines : List of all lines in existing file
+                new_text : A string of new text to be inserted in the file
+                line_num : The line number where the file should be inserted
+        Output :
+                None
+    """
+
+
 def get_linenumber(num):
     """
         Prompt the user for the line number where he wants to insert the text
@@ -29,6 +42,7 @@ def get_linenumber(num):
 
     return ans
 
+
 def print_file(FH):
     """
         Print the contents of the file on the output screen
@@ -36,13 +50,14 @@ def print_file(FH):
                 file handle
         Return : 
                 The number of lines in the file
+                The list of all the lines in the existing file
     """
     all_text = FH.read()
     all_lines = all_text.split('\n')
     for line in all_lines:
         print line
 
-    return len(all_lines)
+    return len(all_lines), all_lines
 
 # Main : This is where the program starts
 # First check if the mandatory argument is given to the program
@@ -58,6 +73,11 @@ FH = open(fname)
 
 print "Printing the contents of file", fname
 num_of_lines = print_file(FH)
-line_number = get_linenumber(num_of_lines)
+FH.close()
+
+(line_number, lines) = get_linenumber(num_of_lines)
 print "The user wants the text to be inserted in line number :", line_number
 
+WFH = open(fname, 'w') ## ALERT !!! This will over write the existing file
+insert_text(WFH, lines, text, line_number)
+WFH.close()
