@@ -10,3 +10,26 @@
             The same file is updated with some new text
 """
 
+import sys
+
+def print_file(FH):
+    """
+        Print the contents of the file on the output screen
+        Input : 
+                file handle
+        Return : 
+                None
+    """
+    all_text = FH.read()
+    all_lines = all_text.split('\n')
+    for line in all_lines:
+        print line
+
+# Main : This is where the program starts
+fname = sys.argv[1]
+
+FH = open(fname)
+
+print "Printing the contents of file", fname
+print_file(FH)
+
