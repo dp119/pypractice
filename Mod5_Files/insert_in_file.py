@@ -23,6 +23,27 @@ def insert_text(WFH, all_lines, new_text, line_num):
         Output :
                 None
     """
+    endl = '\n'
+    count = 1
+    text = ''
+    for line in all_lines:
+        if count == line_num:
+            WFH.write(new_text + endl)
+
+        if line == '':
+            if count == line_num:
+                # The new text is alread inserted above along with a newline
+                # No need to add another empty line with a new line
+                continue
+            else:
+                # Add the empty line as it is without any new line at end
+                WFH.write(line)
+        else:
+            # A non empty line
+            WFH.write(line + endl)
+
+        #print "Adding", count, text
+        count += 1
 
 
 def get_linenumber(num):
@@ -34,8 +55,8 @@ def get_linenumber(num):
                 A number that is less than the max number of lines in file
 
     """
-    ans = num + 10 # Initialise ans to a number larger than number of lines
-    while ans >= num:
+    ans = int(num) + 10 # Initialise ans to a number larger than number of lines
+    while ans > num:
         prompt = "Please enter the line number where you want to insert the text[max: " + str(num) + " ]"
         ans = raw_input (prompt)
         ans = int(ans)
@@ -54,10 +75,14 @@ def print_file(FH):
     """
     all_text = FH.read()
     all_lines = all_text.split('\n')
+    if all_lines[-1] == '':
+        # Remove any last line that is empty
+        all_lines = all_lines[:-1]
+
     for line in all_lines:
         print line
 
-    return len(all_lines), all_lines
+    return (len(all_lines), all_lines)
 
 # Main : This is where the program starts
 # First check if the mandatory argument is given to the program
@@ -72,10 +97,10 @@ text = "This line is added by my program"
 FH = open(fname)
 
 print "Printing the contents of file", fname
-num_of_lines = print_file(FH)
+(num_of_lines, lines) = print_file(FH)
 FH.close()
 
-(line_number, lines) = get_linenumber(num_of_lines)
+line_number = get_linenumber(num_of_lines)
 print "The user wants the text to be inserted in line number :", line_number
 
 WFH = open(fname, 'w') ## ALERT !!! This will over write the existing file
