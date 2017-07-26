@@ -1,0 +1,6 @@
+2017:1:2:3:4:5:6:7
+a:b:c:d:e:f      # less than 8 segments
+a::b:c:d:e:f
+2000::1::2      # Double ::
+2AEF::1234
+2017: eaf:0:0:0:0000:23ab  # invalid space

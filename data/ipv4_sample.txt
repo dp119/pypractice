@@ -1,0 +1,5 @@
+1.1.1.1
+l.l.l.l         # invalid characters
+100.100.100.100
+300.300.300.300 # invalid numbers
+1.10.100.1000   # invalid number 1000
