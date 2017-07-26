@@ -1,0 +1,11 @@
+1.1.1.1
+a:b:c:d:e:f      # less than 8 segments
+100.100.100.100
+2AEF::1234
+300.300.300.300 # invalid numbers
+2000::1::2      # Double ::
+a::b:c:d:e:f
+1.10.100.1000   # invalid number 1000
+l.l.l.l         # invalid characters
+2017:1:2:3:4:5:6:7
+2017: eaf:0:0:0:0000:23ab  # invalid space
