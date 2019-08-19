@@ -1,18 +1,18 @@
 
 # <h1> Python Topics
 
-* Python Language and Python Implementations
+# <h3> Python Language and Python Implementations
 
-* Python Compiler and Portability
+# <h4> Python Compiler and Portability
 
-* Dynamic Language (like Javascript and Ruby)
+# <h5> Dynamic Language (like Javascript and Ruby)
 
 	* Variable Declaration
 
-* Type Annotation or Type Hinting
+# <h3> Type Annotation or Type Hinting
 
 
-* Mutable and Immutable variables
+# <h3> Mutable and Immutable variables
 
 	* Int is Immutable
 	
