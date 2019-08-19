@@ -45,13 +45,14 @@
 	
 # <h4> Escape Sequences
 
-message = "Python \"Programming\" "
+	*
+	message = "Python \"Programming\" "
 
-message = "Python\'s Programming"
+	message = "Python\'s Programming"
 
-message = "Python \\Programming"
+	message = "Python \\Programming"
 
-message = "Python \nProgramming"
+	message = "Python \nProgramming"
 
 
 
