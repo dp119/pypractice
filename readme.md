@@ -27,6 +27,7 @@
 	
 # <h4> String Operations
 
+*
 course = "Python Programming"
 
 print(len(course)) 			#prints lenght of string
