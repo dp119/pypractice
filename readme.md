@@ -25,6 +25,12 @@
 
 	
 	
+# <h4> String Operations
+
+course = "Python Programming"
+print(len(course)) 
+course[1:3]
+
 	
 
 # <h5> *Learn more about markdown [here](https://guides.github.com/features/mastering-markdown/)*
