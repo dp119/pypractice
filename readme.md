@@ -6,11 +6,11 @@
 * Python Compiler and Portability
 
 * Dynamic Language (like Javascript and Ruby)
-	Variable Declaration
+	*Variable Declaration
 
 * Type Annotation or Type Hinting
 
 
 * Mutable and Immutable variables
-	Int is Immutable
-	Lists are mutable
+	*Int is Immutable
+	*Lists are mutable
