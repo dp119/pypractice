@@ -27,20 +27,20 @@
 	
 # <h4> String Operations
 
-*
-course = "Python Programming"
+	*
+	course = "Python Programming"
 
-print(len(course)) 			#prints lenght of string
+	print(len(course)) 			#prints lenght of string
 
-print(course[0:3])			#returns "Pyt"
+	print(course[0:3])			#returns "Pyt"
 
-print(course[:3])			#returns "Pyt"
+	print(course[:3])			#returns "Pyt"
 
-print(course[0:])			#returns "Python Programming"
+	print(course[0:])			#returns "Python Programming"
 
-print(course[:])			#returns "Python Programming"
+	print(course[:])			#returns "Python Programming"
 
-print(course[-1]) 			#returns "g"
+	print(course[-1]) 			#returns "g"
 
 	
 # <h4> Escape Sequences
