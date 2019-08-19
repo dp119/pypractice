@@ -28,9 +28,20 @@
 # <h4> String Operations
 
 course = "Python Programming"
-print(len(course)) 
-course[1:3]
+print(len(course)) 	#prints lenght of string
+print(course[0:3])	#returns "Pyt"
+print(course[:3])	#returns "Pyt"
+print(course[0:])	#returns "Python Programming"
+print(course[:])	#returns "Python Programming"
+print(course[-1]) 	#returns "g"
 
 	
+# <h4> Escape Sequences
+
+message = "Python \"Programming\" "
+message = "Python\'s Programming"
+message = "Python \\Programming"
+message = "Python \nProgramming"
+
 
 # <h5> *Learn more about markdown [here](https://guides.github.com/features/mastering-markdown/)*
