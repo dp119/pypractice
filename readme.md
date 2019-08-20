@@ -159,7 +159,7 @@ Any of the below values, if we try to convert to boolean, the result will be fal
 	bool("false")		# returns true
 	
 	
-#### Conditional Statements
+# <h4> Conditional Statements
 
 
 		age = 22
@@ -175,15 +175,15 @@ Any of the below values, if we try to convert to boolean, the result will be fal
 
 
 		if x > 1:
-			pass	#to have an empty block
+			pass	#use pass keyword to have an empty block
 		else:
 			pass
 			
 			
-#### Logical Operators
+# <h4> Logical Operators
 
 
-Eg for not operator: To find if given string is empty. If uses the concept of Falsy boolean
+Eg for "not" operator: To find if given string is empty. If uses the concept of Falsy boolean
 
 	name = " "
 		
@@ -192,7 +192,7 @@ Eg for not operator: To find if given string is empty. If uses the concept of Fa
 	else:
 		print("Name is not empty")
 
-Eg for and operator
+Eg for "and" operator
 
 	age = 22
 	if age >= 18 and age <= 65:
