@@ -133,7 +133,7 @@ There are no incremental operators unlike Java (x++ or x--)
 	
 # <h4> Type Conversion
 
-	*
+	
 	input("x: ")
 	y = x + 1 		#Returns type conversion error
 	
