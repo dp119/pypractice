@@ -151,7 +151,7 @@ Javascript is weakly typed language. It does perform implicit type conversions
 Truthy and Falsy Boolean Values.
 Any of the below values, if we try to convert to boolean, the result will be false. Everything else is true
 
-	*
+	
 	bool(0)				# returns false
 	bool("")			# returns false
 	bool([])			# returns false
