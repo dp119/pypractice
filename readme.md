@@ -81,8 +81,9 @@
 	
 # <h4> Numbers
 
+Binary representation of the numbers
 	*
-	Binary representation of the numbers
+	
 	x = 10
 	print(bin()x))		#prints binary representation of number 10
 	
@@ -93,9 +94,9 @@
 	
 	
 
-
+Arithmetic Operations
 	*
-	Arithmetic Operations
+	
 	x = 10 + 3
 	x = 10 - 3
 	x = 10 * 3
@@ -104,15 +105,16 @@
 	x = 10 % 3		#modulus returns remainder
 	x = 10 ** 3		#power 
 	
-	
+
+Augmented assignment operator	
 	*
-	Augmented assignment operator
+	
 	x = x + 1
 	x += 1
 	
 	
-	*
-	There are no incremental operators unlike Java (x++ or x--)
+
+There are no incremental operators unlike Java (x++ or x--)
 	
 	
 # <h4> Working with Numbers
@@ -129,7 +131,32 @@
 :exclamation: *Complete list of methods in math module available [here](https://docs.python.org/3/library/math.html/)*
 
 	
+# <h4> Type Conversion
+
+	*
+	input("x: ")
+	y = x + 1 		#Returns type conversion error
 	
+Python is strongly typed language. It does not perform explicit type conversion
+Javascript is weakly typed language. It does perform implicit type conversions
+	
+	
+	
+	print(int(x))		# 1
+	print(float(x))		# 1.0
+	print(bool(x))		# True
+	print(str(x))		# 1
+	
+	
+Truthy and Falsy Boolean Values.
+Any of the below values, if we try to convert to boolean, the result will be false. Everything else is true
+
+	*
+	bool(0)				# returns false
+	bool("")			# returns false
+	bool([])			# returns false
+	bool(null)			# returns false
+	bool("false")		# returns true
 
 	
 # <h5> *Learn more about markdown [here](https://guides.github.com/features/mastering-markdown/)*
