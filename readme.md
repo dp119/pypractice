@@ -27,7 +27,7 @@
 	
 # <h4> String Operations
 
-	*
+	
 	course = "Python Programming"
 
 	print(len(course)) 			#prints lenght of string
@@ -45,7 +45,7 @@
 	
 # <h4> Escape Sequences
 
-	*
+	
 	message = "Python \"Programming\" "
 
 	message = "Python\'s Programming"
@@ -58,7 +58,7 @@
 
 # <h4> Useful String Methods
 
-	*
+	
 	course = " Python Programming"
 	
 	print(course.upper())
@@ -82,7 +82,7 @@
 # <h4> Numbers
 
 Binary representation of the numbers
-	*
+	
 	
 	x = 10
 	print(bin()x))		#prints binary representation of number 10
@@ -95,7 +95,7 @@ Binary representation of the numbers
 	
 
 Arithmetic Operations
-	*
+	
 	
 	x = 10 + 3
 	x = 10 - 3
@@ -107,7 +107,7 @@ Arithmetic Operations
 	
 
 Augmented assignment operator	
-	*
+	
 	
 	x = x + 1
 	x += 1
