@@ -157,6 +157,20 @@ Any of the below values, if we try to convert to boolean, the result will be fal
 	bool([])			# returns false
 	bool(null)			# returns false
 	bool("false")		# returns true
-
 	
+	
+#### Conditional Statements
+
+
+		age = 22
+		if age >= 18:
+		  print("Adult")
+		elif age >= 13:
+		  print("Teenager")
+		else:
+		  print("child")
+		  
+		print("All done")
+		
+		
 # <h5> *Learn more about markdown [here](https://guides.github.com/features/mastering-markdown/)*
