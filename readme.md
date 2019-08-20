@@ -123,9 +123,11 @@
 	print(round(PI))
 	print(abs(PI))
 	
-	Complete list of python built in functions [here](https://docs.python.org/3/library/functions.html)
+	Complete list of python built in functions [here](https://docs.python.org/3/library/functions.html)*
+	[here](https://docs.python.org/3/library/functions.html)
 	
-	Complete list of methods in math module [here](https://docs.python.org/3/library/math.html)
+	Complete list of methods in math module [here](https://docs.python.org/3/library/math.html)*
+	[here](https://docs.python.org/3/library/math.html)
 	
 	
 	
