@@ -155,7 +155,7 @@ Any of the below values, if we try to convert to boolean, the result will be fal
 	bool(0)				# returns false
 	bool("")			# returns false
 	bool([])			# returns false
-	bool(null)			# returns false
+	bool(None)			# returns false
 	bool("false")		# returns true
 	
 	
@@ -171,6 +171,38 @@ Any of the below values, if we try to convert to boolean, the result will be fal
 		  print("child")
 		  
 		print("All done")
+		
+
+
+		if x > 1:
+			pass	#to have an empty block
+		else:
+			pass
+			
+			
+#### Logical Operators
+
+
+Eg for not operator: To find if given string is empty. If uses the concept of Falsy boolean
+
+	name = " "
+		
+	if not name.strip():        #use strip to remove empty spaces
+		print("Name is empty")
+	else:
+		print("Name is not empty")
+
+Eg for and operator
+
+	age = 22
+	if age >= 18 and age <= 65:
+		print("Eligible")
+
+We could re-write above like below as well
+
+	if 18 <= age < 65
+		print("Eligible")
+		
 		
 		
 # <h5> *Learn more about markdown [here](https://guides.github.com/features/mastering-markdown/)*
