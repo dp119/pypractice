@@ -56,4 +56,78 @@
 
 
 
+# <h4> Useful String Methods
+
+	*
+	course = " Python Programming"
+	
+	print(course.upper())
+	
+	print(course.lower())
+	
+	print(course.title())
+	
+	print(course.strip())
+	
+	print(course.find("Pro"))		#find index of the character
+									#string comparison's are case sensitive
+									
+	print(course.replace("P", "-"))
+	
+	print("Programming" in course)	#returns boolean True
+	
+	print("Programming" not in course)	#returns boolean False
+	
+	
+# <h4> Numbers
+
+	*
+	Binary representation of the numbers
+	x = 10
+	print(bin()x))		#prints binary representation of number 10
+	
+	x = 0x12c
+	print(x)			#prints number decimal representation of the hexadecimal value
+	
+	print(hex(x))		#prints hexadecimal representation of given number
+	
+	
+
+
+	*
+	Arithmetic Operations
+	x = 10 + 3
+	x = 10 - 3
+	x = 10 * 3
+	x = 10 / 3		#returns float
+	x = 10 // 3		#returns integer
+	x = 10 % 3		#modulus returns remainder
+	x = 10 ** 3		#power 
+	
+	
+	*
+	Augmented assignment operator
+	x = x + 1
+	x += 1
+	
+	
+	*
+	There are no incremental operators unlike Java (x++ or x--)
+	
+	
+# <h4> Working with Numbers
+
+	*
+	import math
+	PI = 3.14		#by convention upper case variables are used for constants. Although this value can be changed, it's just a convention. Because there are no constants in python
+	print(round(PI))
+	print(abs(PI))
+	
+	Complete list of python built in functions [here](https://docs.python.org/3/library/functions.html) 
+	
+	Complete list of methods in math module [here](https://docs.python.org/3/library/math.html)
+	
+	
+	
+	
 # <h5> *Learn more about markdown [here](https://guides.github.com/features/mastering-markdown/)*
