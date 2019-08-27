@@ -267,7 +267,7 @@ What is keyword argument
 
 	print(increment(2, 3))
 
-#return multiple value
+#Function returns multiple value
 
 	def incrementby(number, by):
 		return (number, number + by)  # returns a tuple (which is read only unlike lists)
@@ -277,10 +277,12 @@ What is keyword argument
 
 
 #keyword argument
+
 	print(increment(2, by=3))
 
 
 #function with default value
+
 	def increment(number, by=1):
 		return (number, number + by)
 
@@ -288,6 +290,7 @@ What is keyword argument
 
 
 #Type hinting / type annotation in functions
+
 	def increment(number: int, by: int =1) -> tuple:
 		return (number, number + by)
 
