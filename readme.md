@@ -198,11 +198,99 @@ Eg for "and" operator
 	if age >= 18 and age <= 65:
 		print("Eligible")
 
-We could re-write above like below as well
+We could re-write above like below as well and eliminate "and"
 
-	if 18 <= age < 65
+	if 18 <= age < 65:
 		print("Eligible")
 		
+# <h4> Ternary Operators
+
+	message = "Eligible" if age >= 18 else "Not Eligible"
+	
+# <h4> Loops
+
+For Loops
+	for x in "Python":
+		print(x)
 		
+	for x in ['a','b','c']:
+		print(x)
+		
+	for x in range(5):
+		print(x)
+		
+	for x in range(0, 10, 2):
+		print(x)				#prints 0 2 4 6 8
+		
+		
+Difference between list and range objects
+	
+# <h4> For..Else
+
+
+	names = ["John", "Mary"]
+	for name in names:
+		if name.startswith("J"):
+			print("Found")
+			break
+	else:
+		print("Not found")	
+	
+
+# <h4> While Loops
+
+	guess = 0
+	answer = 5
+
+	while answer =! guess:
+		guess = int(input("Guess: "))
+	else:
+		pass
+
+
+# <h4> Functions
+
+Difference between lists and tuple
+
+What is PEP 8
+PEP 8, sometimes spelled PEP8 or PEP-8, is a document that provides guidelines and best practices on how to write Python code
+
+What is keyword argument
+
+
+
+#Function returns single value
+
+	def increment(number, by):
+		return number + by
+
+
+	print(increment(2, 3))
+
+#return multiple value
+
+	def incrementby(number, by):
+		return (number, number + by)  # returns a tuple (which is read only unlike lists)
+
+
+	print(incrementby(2, 3))
+
+
+#keyword argument
+	print(increment(2, by=3))
+
+
+#function with default value
+	def increment(number, by=1):
+		return (number, number + by)
+
+	print(increment(2))
+
+
+#Type hinting / type annotation in functions
+	def increment(number: int, by: int =1) -> tuple:
+		return (number, number + by)
+
+
 		
 # <h5> *Learn more about markdown [here](https://guides.github.com/features/mastering-markdown/)*
