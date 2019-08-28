@@ -326,13 +326,13 @@ What is keyword argument
 
 #Function to take dictionary (key value pair) as arguments
 
-def save_user(**user):
-    print(user)
+	def save_user(**user):
+		print(user)
 
-    print(user["id"])
-    print(user["name"])
+		print(user["id"])
+		print(user["name"])
 
-save_user(id=1, name="admin")
+	save_user(id=1, name="admin")
 
 
 # <h4> Local variable and Global variable
@@ -341,23 +341,23 @@ save_user(id=1, name="admin")
 
 #Global variable is for the whole file
 
-message = "a"
+	message = "a"
 
-def greet():
-    message ="b"
+	def greet():
+		essage ="b"
 
-greet()
-print(message) # prints a
+	greet()
+	print(message) # prints a
 
 #To override we can use global keyword inside a function. But it's not recommended practice
 
-message = "a"
+	message = "a"
 
-def greet():
-    global message
-    message ="b"
+	def greet():
+		global message
+		message ="b"
 
-greet()
-print(message) # prints b
+	greet()
+	print(message) # prints b
 
 # <h5> *Learn more about markdown [here](https://guides.github.com/features/mastering-markdown/)*
