@@ -295,5 +295,29 @@ What is keyword argument
 		return (number, number + by)
 
 
+# <h4> *args
+
+#Function to multiply 2 arguments
+
+	def multiplya(a, b):
+		return a * b
+
+	print(multiplya(2, 3))
+
+#function to multiply a variable number of arguments
+#In this example we are passing 4 numbers, which are (2, 3, 4, 5). 
+#The ones within small brackets is a tuple in python. To pass tuple in function definition, use (*list)
+
+	def multiplyb(*list):
+		print(list)
+
+		total = 1
+		for number in list:
+			total *= number
+		return total        
+
+
+	print(multiplyb(2, 3, 4, 5))
+	
 		
 # <h5> *Learn more about markdown [here](https://guides.github.com/features/mastering-markdown/)*
