@@ -304,7 +304,7 @@ What is keyword argument
 
 	print(multiplya(2, 3))
 
-#function to multiply a variable number of arguments
+#Function to multiply a variable number of arguments
 #In this example we are passing 4 numbers, which are (2, 3, 4, 5). 
 #The ones within small brackets is a tuple in python. To pass tuple in function definition, use (*list)
 
@@ -319,5 +319,45 @@ What is keyword argument
 
 	print(multiplyb(2, 3, 4, 5))
 	
-		
+
+
+
+# <h4> **args
+
+#Function to take dictionary (key value pair) as arguments
+
+def save_user(**user):
+    print(user)
+
+    print(user["id"])
+    print(user["name"])
+
+save_user(id=1, name="admin")
+
+
+# <h4> Local variable and Global variable
+
+#Local variable limited to a function
+
+#Global variable is for the whole file
+
+message = "a"
+
+def greet():
+    message ="b"
+
+greet()
+print(message) # prints a
+
+#To override we can use global keyword inside a function. But it's not recommended practice
+
+message = "a"
+
+def greet():
+    global message
+    message ="b"
+
+greet()
+print(message) # prints b
+
 # <h5> *Learn more about markdown [here](https://guides.github.com/features/mastering-markdown/)*
