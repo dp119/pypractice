@@ -19,6 +19,10 @@
 	print(type(1))
 	print(type("a"))
 	print(type(1.1))
+
+Take Away : Python is a dynamic language which means the type of the variable is determined at run_time as opposed to compile time
+
+
 	
 # <h4> Type Annotation or Type Hinting
 
