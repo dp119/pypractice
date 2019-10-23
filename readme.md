@@ -13,8 +13,12 @@
 
 	To print the type of variable of an object in python
 	
-	* x = 1
-	* print(type(x))
+	x = 1
+	print(type(x))
+	
+	print(type(1))
+	print(type("a"))
+	print(type(1.1))
 	
 # <h4> Type Annotation or Type Hinting
 
