@@ -11,6 +11,10 @@
 
 	* Variable Declaration
 
+	To print the type of variable of an object in python
+	
+	* x = 1
+	* print(type(x))
 	
 # <h4> Type Annotation or Type Hinting
 
@@ -359,5 +363,25 @@ What is keyword argument
 
 	greet()
 	print(message) # prints b
+	
+
+# <h4> Debugging in VS Code discussed at 1:33
+
+# <h4> VS Code tricks at 1:36
+
+Shortcuts
+
+To comment multiple, select all the line and 
+
+	ctrl + /
+	
+To run code
+
+	Alt + Ctrl + N
+	
+To move the line up, () select the line 
+	
+	ALT + UP arrow
+	
 
 # <h5> *Learn more about markdown [here](https://guides.github.com/features/mastering-markdown/)*
