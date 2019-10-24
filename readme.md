@@ -458,4 +458,21 @@ To move the line up, () select the line
 	ALT + UP arrow
 	
 
+open command pallete by ctrl + shift + p
+
+Installing VS Code Extensions
+
+****LINTER****
+select and install linter
+
+
+
+****FORMAT****
+select format document
+In settings choose the option - Format on Save 
+
+
+****CODE RUNNER****
+
+
 # <h5> *Learn more about markdown [here](https://guides.github.com/features/mastering-markdown/)*
