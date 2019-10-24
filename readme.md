@@ -90,7 +90,27 @@ Escape character in python treats the next character as a string
 
 # <h4> Formatted Strings
 
+	first = "Deepak"
+	last = "Prasad"
+	full = f"{first} {last}"
+	print(full)
+	
 
+# <h4> Print Variables and String in same line
+
+	x = 1
+
+## Using **,** to separate strings and variables while printing: 
+(this automatically separtes the items by a single space)
+
+	print("My kid is",x,"year old")
+
+
+## Using concatenate **+** to separate strings and variables while printing: 
+(this does not automatically separtes the items by a single space)
+Also we need to convert any integer to string explicitly
+
+	print("My kid is " + str(x) + " year old")
 	
 
 # <h4> Useful String Methods
