@@ -11,7 +11,7 @@
 
 	* Variable Declaration
 
-	To print the type of variable of an object in python
+To print the type of variable of an object in python
 	
 	x = 1
 	print(type(x))
@@ -32,7 +32,26 @@ Take Away : Python is a dynamic language which means the type of the variable is
 
 	* Int is Immutable
 	
+	x = 1		#x points to memory address 2336032
+	x = x + 1	#x points to memory address 2336045
+	
+Changes are applied on different memory location
+This means the variable x is allocated to a new value in memory
+	
+	
+	
+	
 	* Lists are mutable
+	
+	x = [1, 2, 3]
+	print(id(x)) #2336078
+	
+	x.append(4)		
+	print(id(4))
+	
+The changes are applied on the same memory location.
+This means the variable name is allocated to same memory
+	
 	
 
 	
@@ -57,7 +76,8 @@ Take Away : Python is a dynamic language which means the type of the variable is
 	
 # <h4> Escape Sequences
 
-	
+Escape character in python treats the next character as a string
+
 	message = "Python \"Programming\" "
 
 	message = "Python\'s Programming"
@@ -67,6 +87,10 @@ Take Away : Python is a dynamic language which means the type of the variable is
 	message = "Python \nProgramming"
 
 
+# <h4> Formatted Strings
+
+
+	
 
 # <h4> Useful String Methods
 
@@ -89,7 +113,8 @@ Take Away : Python is a dynamic language which means the type of the variable is
 	print("Programming" in course)	#returns boolean True
 	
 	print("Programming" not in course)	#returns boolean False
-	
+
+
 	
 # <h4> Numbers
 
@@ -97,7 +122,7 @@ Binary representation of the numbers
 	
 	
 	x = 10
-	print(bin()x))		#prints binary representation of number 10
+	print(bin(x))		#prints binary representation of number 10
 	
 	x = 0x12c
 	print(x)			#prints number decimal representation of the hexadecimal value
