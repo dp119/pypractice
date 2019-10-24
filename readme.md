@@ -96,21 +96,41 @@ Escape character in python treats the next character as a string
 	print(full)
 	
 
+	
+	
 # <h2> Print Variables and String in same line
 
 	x = 1
+	y = 2
 
+	
+	
+	
 # <h4> Using **,** to separate strings and variables while printing: 
 (this automatically separtes the items by a single space)
 
 	print("My kid is",x,"year old")
 
+	
+	
 
 # <h4> Using concatenate **+** to separate strings and variables while printing: 
 (this does not automatically separtes the items by a single space)
 Also we need to convert any integer to string explicitly
 
 	print("My kid is " + str(x) + " year old")
+	
+
+	
+	
+# <h4> Using format strings: 
+
+	print("My kid is {} year old".format(x))
+	
+	Another example
+	print("My kid is {} year old. She will be {} next year".format(x, y))
+
+
 	
 
 # <h2> Useful String Methods
