@@ -1,13 +1,13 @@
 
 # <h1> Python Topics
 
-# <h4> Python Language and Python Implementations
+# <h2> Python Language and Python Implementations
 
 
-# <h4> Python Compiler and Portability
+# <h2> Python Compiler and Portability
 
 
-# <h4> Dynamic Language (like Javascript and Ruby)
+# <h2> Dynamic Language (like Javascript and Ruby)
 
 	* Variable Declaration
 
@@ -24,11 +24,11 @@ Take Away : Python is a dynamic language which means the type of the variable is
 
 
 	
-# <h4> Type Annotation or Type Hinting
+# <h2> Type Annotation or Type Hinting
 
 
 
-# <h4> Mutable and Immutable variables
+# <h2> Mutable and Immutable variables
 
 	* Int is Immutable
 	
@@ -57,7 +57,7 @@ This means the variable name is allocated to same memory
 
 
 	
-# <h4> String Operations
+# <h2> String Operations
 
 	
 	course = "Python Programming"
@@ -75,7 +75,7 @@ This means the variable name is allocated to same memory
 	print(course[-1]) 			#returns "g"
 
 	
-# <h4> Escape Sequences
+# <h2> Escape Sequences
 
 Escape character in python treats the next character as a string
 
@@ -88,7 +88,7 @@ Escape character in python treats the next character as a string
 	message = "Python \nProgramming"
 
 
-# <h4> Formatted Strings
+# <h2> Formatted Strings
 
 	first = "Deepak"
 	last = "Prasad"
@@ -96,24 +96,24 @@ Escape character in python treats the next character as a string
 	print(full)
 	
 
-# <h4> Print Variables and String in same line
+# <h2> Print Variables and String in same line
 
 	x = 1
 
-## Using **,** to separate strings and variables while printing: 
+# <h4> Using **,** to separate strings and variables while printing: 
 (this automatically separtes the items by a single space)
 
 	print("My kid is",x,"year old")
 
 
-## Using concatenate **+** to separate strings and variables while printing: 
+# <h4> Using concatenate **+** to separate strings and variables while printing: 
 (this does not automatically separtes the items by a single space)
 Also we need to convert any integer to string explicitly
 
 	print("My kid is " + str(x) + " year old")
 	
 
-# <h4> Useful String Methods
+# <h2> Useful String Methods
 
 	
 	course = " Python Programming"
@@ -137,7 +137,7 @@ Also we need to convert any integer to string explicitly
 
 
 	
-# <h4> Numbers
+# <h2> Numbers
 
 Binary representation of the numbers
 	
@@ -175,7 +175,7 @@ Augmented assignment operator
 There are no incremental operators unlike Java (x++ or x--)
 	
 	
-# <h4> Working with Numbers
+# <h2> Working with Numbers
 
 	*
 	import math
@@ -189,7 +189,7 @@ There are no incremental operators unlike Java (x++ or x--)
 :exclamation: *Complete list of methods in math module available [here](https://docs.python.org/3/library/math.html/)*
 
 	
-# <h4> Type Conversion
+# <h2> Type Conversion
 
 	
 	input("x: ")
@@ -217,7 +217,7 @@ Any of the below values, if we try to convert to boolean, the result will be fal
 	bool("false")		# returns true
 	
 	
-# <h4> Conditional Statements
+# <h2> Conditional Statements
 
 
 		age = 22
@@ -238,7 +238,7 @@ Any of the below values, if we try to convert to boolean, the result will be fal
 			pass
 			
 			
-# <h4> Logical Operators
+# <h2> Logical Operators
 
 
 Eg for "not" operator: To find if given string is empty. If uses the concept of Falsy boolean
@@ -261,11 +261,11 @@ We could re-write above like below as well and eliminate "and"
 	if 18 <= age < 65:
 		print("Eligible")
 		
-# <h4> Ternary Operators
+# <h2> Ternary Operators
 
 	message = "Eligible" if age >= 18 else "Not Eligible"
 	
-# <h4> Loops
+# <h2> Loops
 
 For Loops
 	for x in "Python":
@@ -283,7 +283,7 @@ For Loops
 		
 Difference between list and range objects
 	
-# <h4> For..Else
+# <h2> For..Else
 
 
 	names = ["John", "Mary"]
@@ -295,7 +295,7 @@ Difference between list and range objects
 		print("Not found")	
 	
 
-# <h4> While Loops
+# <h2> While Loops
 
 	guess = 0
 	answer = 5
@@ -306,7 +306,7 @@ Difference between list and range objects
 		pass
 
 
-# <h4> Functions
+# <h2> Functions
 
 Difference between lists and tuple
 
@@ -353,7 +353,7 @@ What is keyword argument
 		return (number, number + by)
 
 
-# <h4> *args
+# <h2> *args
 
 #Function to multiply 2 arguments
 
@@ -380,7 +380,7 @@ What is keyword argument
 
 
 
-# <h4> **args
+# <h2> **args
 
 #Function to take dictionary (key value pair) as arguments
 
@@ -393,7 +393,7 @@ What is keyword argument
 	save_user(id=1, name="admin")
 
 
-# <h4> Local variable and Global variable
+# <h2> Local variable and Global variable
 
 #Local variable limited to a function
 
@@ -419,9 +419,9 @@ What is keyword argument
 	print(message) # prints b
 	
 
-# <h4> Debugging in VS Code discussed at 1:33
+# <h2> Debugging in VS Code discussed at 1:33
 
-# <h4> VS Code tricks at 1:36
+# <h2> VS Code tricks at 1:36
 
 Shortcuts
 
