@@ -155,7 +155,15 @@ Also we need to convert any integer to string explicitly
 	
 	print("Programming" not in course)	#returns boolean False
 
-
+	print(course.replace("Python", "Java"))
+	
+	print(course.startswith("Py")) 		#Returns Boolean True
+	
+	print(course.endswith("n"))			#Returns Boolean False
+	
+	print(course.count("o"))			#Returns number of times the character appears in the string
+	
+	
 	
 # <h2> Numbers
 
