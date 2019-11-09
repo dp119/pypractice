@@ -17,6 +17,9 @@ With Jenkins we can build pipelines to build project, run tests and then deploy
 We can disable the security in config.xml file and security will be disabled when jenkins is started the next time.
 
 
+
+# <h2> Difference between webhook and polling? 
+    
 There are two ways your apps can communicate with each other to share information: polling and webhooks. As one of our customer champion's friends has explained it: Polling is like knocking on your friend’s door and asking if they have any sugar. Webhooks are like someone tossing a bag of sugar at your house whenever they buy some.
 
 Webhooks are automated messages sent from apps when something happens. They have a message—or payload—and are sent to a unique URL—essentially the app's phone number or address.
