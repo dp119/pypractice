@@ -19,8 +19,7 @@ def Remove(test_list):
 print(Remove(test_list))
 
 
-# <h3> sol2
-# converting into set
+# <h3> sol2 - converting into set
 
 
 test_list = [2, 4, 10, 20, 5, 2, 20, 4]
@@ -30,8 +29,7 @@ print(A)
 
 
 
-# # <h3> sol3
-# converting into dictionary
+# # <h3> sol3 - converting into dictionary
 
 mylist = ["a", "b", "a", "c", "c"]
 mylist = list( dict.fromkeys(mylist) )      #using list elements as keys for dictionary
