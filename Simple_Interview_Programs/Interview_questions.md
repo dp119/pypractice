@@ -1,8 +1,10 @@
 
 
-# Remove duplicates from a list
+# <h1> Basic Programs
 
-# sol1
+# <h2> Remove duplicates from a list
+
+# <h3> sol1
 test_list = [2, 4, 10, 20, 5, 2, 20, 4]
 
 
@@ -17,16 +19,18 @@ def Remove(test_list):
 print(Remove(test_list))
 
 
-# sol2
+# <h3> sol2
 # converting into set
 
+
+test_list = [2, 4, 10, 20, 5, 2, 20, 4]
 
 A = list(set(test_list))
 print(A)
 
 
 
-# sol3
+# # <h3> sol3
 # converting into dictionary
 
 mylist = ["a", "b", "a", "c", "c"]
