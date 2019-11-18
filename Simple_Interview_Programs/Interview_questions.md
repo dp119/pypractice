@@ -56,3 +56,24 @@
             # print(i)
             f = f * i
         print("Factorial of {} is {}".format(num, f))
+
+
+# <h2> python program for simple interest
+
+
+
+    #python program to find simple interest
+
+    print("Enter the principal amount:")
+    p = int(input())
+
+    print("Enter the tenure:")
+    t = int(input())
+
+    print("Enter the rate of interest:")
+    r = int(input())
+
+    SI = int((p * t * r) / 100)
+
+    print("Simple Interest is {}".format(SI))
+
