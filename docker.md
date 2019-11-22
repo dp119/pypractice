@@ -7,6 +7,9 @@
 
 Docker is an open-source lightweight containerization tool.
 
+It helps to easily create, deploy and run application using containers.
+
+
 
 Containerisation is bundling an application together with all it's related configuration files, libraries and dependencies.
 
