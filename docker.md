@@ -15,7 +15,13 @@ Containerisation is bundling an application together with all it's related confi
 
 # <h2> What is Docker image?
 
-The Docker image is a (immutable) file used to create Docker containers. You can create the Docker image with the build command. Due to this, it creates a container that starts when it begins to run. Every docker images are stored in the Docker registry.
+
+
+The Docker image is a (immutable) file used to create Docker containers.  
+
+A docker image is made up of multiple layers. An image is composed system libraries, tools, other files and dependencies for executable code.
+
+Every docker images are stored in the Docker registry.
 
 
 
