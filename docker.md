@@ -8,6 +8,7 @@
 Docker is an open-source lightweight containerization tool.
 
 
+Containerisation is bundling an application together with all it's related configuration files, libraries and dependencies.
 
 # <h2> What is Docker image?
 
