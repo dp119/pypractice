@@ -1,5 +1,5 @@
 
-# <h1> GIT Topics
+# <h1> Jenkins Topics
 
 
 
@@ -24,6 +24,7 @@ There are two ways your apps can communicate with each other to share informatio
 
 Webhooks are automated messages sent from apps when something happens. They have a message—or payload—and are sent to a unique URL—essentially the app's phone number or address.
 
+Poll SCM periodically polls the SCM to check whether changes were made (i.e. new commits) and builds the project if new commits where pushed since the last build.
 
 # <h2> What are some of the useful plugins in Jenkins?
 Git repository
