@@ -1,27 +1,22 @@
 # numCities = 10
 # originCities = [1, 2, 3]
 # destCities = [4, 5, 6]
+# threshold = 2
 
 
-# def gcd():
-
-
-def gcd(x, y):
+def gcd(a, b):
     # choose the smaller number
-    if x > y:
-        smaller = y
+    if a > b:
+        smaller = b
     else:
-        smaller = x
+        smaller = a
     for i in range(1, smaller+1):
-        if((x % i == 0) and (y % i == 0)):
+        if((a % i == 0) and (b % i == 0)):
             gcd = i
     return gcd
 
 
 # print(gcd(35, 700))
-
-
-# threshold = 2
 
 
 def connectedCities(numCities, threshold, originCities, destCities):
