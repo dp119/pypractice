@@ -1,6 +1,6 @@
 # numCities = 10
 # originCities = [1, 2, 3]
-# destCities = [4, 5, 6]
+# destinationCities = [4, 5, 6]
 # threshold = 2
 
 
@@ -19,10 +19,10 @@ def gcd(a, b):
 # print(gcd(35, 700))
 
 
-def connectedCities(numCities, threshold, originCities, destCities):
+def connectedCities(numCities, threshold, originCities, destinationCities):
     path = []
     for i in range(len(originCities)):
-        route = gcd(originCities[i], destCities[i])
+        route = gcd(originCities[i], destinationCities[i])
         if route > threshold:
             path.append(1)
         else:
@@ -31,4 +31,4 @@ def connectedCities(numCities, threshold, originCities, destCities):
     return path
 
 
-print(connectedCities(8, 2, [14, 25, 35], [478, 572, 700]))
+print(connectedCities(10, 1, [4, 10, 4, 3, 6], [4, 3, 6, 2, 9]))
